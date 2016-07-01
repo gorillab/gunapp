@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ionicons.css" rel="stylesheet">
+    <link href="css_file/index.css" rel="stylesheet">
+    <link href="css_file/profile.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="js/hackingdays.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <!-- HEARDER -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+           <a class="navbar-brand dropdown-toggle logo-with-menu" data-toggle="dropdown" style="cursor:pointer;">HKDs <i style="display:none;" class="icon ion-ios-arrow-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+          </ul>
+          <a class="navbar-brand logo" style="cursor:pointer;">HKDs</a>
+
+          <!-- Search bar -->
+          <div class="input-group stylish-input-group" style="margin-top: 10px;width: 50%;">
+            <input type="text" class="form-control" style="height: 30px;border: 1px solid #f2f2f2;border-bottom-right-radius: 0 !important;border-top-right-radius: 0 !important;" placeholder="Discover your next favorite thing…">
+            <span class="input-group-addon" style="padding: 0px 6px;border: 1px solid #f2f2f2;border-left: 0;">
+                <button type="submit" style="outline: none;">
+                    <i class="icon ion-ios-search" style="font-size:20px;color: #777;"></i>
+                </button>  
+            </span>
+        </div>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle menu-cate" data-toggle="dropdown"><i class="icon ion-ios-more-outline" style="font-size:20px"></i></a>
+              <ul class="dropdown-menu ul-menu-cate">
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="single-post.html">SINGLE POST</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="single-project.html">SINGLE PROJECT</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a style="padding: 10px 0 0 15px;" href="#" class="dropdown-toggle menu-cate" data-toggle="dropdown">
+                <span class="user-image">
+                    <div class="container-thumbnail user-image--image" style="width:32px;height:32px">
+                      <div class="container_q16 lazy-load-container">
+                        <img height="32" src="https://ph-avatars.imgix.net/587925/original?auto=format&amp;w=140&amp;h=140&amp;fit=crop" width="32">
+                      </div>
+                    </div>
+                </span>
+              </a>
+               <ul class="dropdown-menu ul-menu-cate" style="left: -50px;">
+                  <li><a href="profile.html">My Profile</a></li>
+                  <li><a href="setting.html">Setting</a></li>
+                  <li><a href="index.html">Logout</a></li>
+                </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <!-- CONTENT -->
+    <div class="container mtb">
+        <div class="row response-row">
+          <h1 class="s-h1">Settings</h1>
+          <div class="my-setting-form">
+            <form>
+              <div class="form-group">
+                <label style="margin-bottom: 20px;">My information:</label>
+                <input class="form-control margin-bottom-10" type="text" name="txtUsername" placeholder="User name" value="Chau Duong">
+                <input class="form-control margin-bottom-10" type="email" name="txtEmail" placeholder="Email" value="chau.duong1192@gmail.com">
+                <input class="form-control margin-bottom-10" type="text" name="txtCompany" placeholder="Company or Job title" value="Developer">
+              </div>
+             <div class="form-group">
+              <label style="margin-bottom: 20px;">Profile Header (recommended: 1070x260px)</label>
+              <input class="margin-bottom-10" type="file" name="filename">
+            </div>
+             <div class="form-group">
+              <label style="margin-bottom: 10px;">Receive email notifications when:</label>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+                 <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+                 <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+            </div>
+            <div class="form-group">
+              <label style="margin-bottom: 10px;">Receive email notifications when:</label>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+                 <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+                 <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+            </div>
+            <div class="form-group">
+              <label style="margin-bottom: 10px;">Receive email notifications when:</label>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+                 <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+                 <div class="checkbox">
+                  <label><input type="checkbox" value="">Option 1</label>
+                </div>
+            </div>
+            <div class="form-group no-margin">
+              <button type="submit" style="padding: 10px 30px; border-radius:20px" class="button_all secondary_BoldText secondary_text solidVariant button-ogri-color">
+                <div class="buttonContainer">Save</div>
+              </button>
+            </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer">
+          <p role="contentinfo">Copyright © 2016 - GUNAPP, Inc. <a href="#">Terms of Service</a></p>
+          <ul>
+            <li><a href="https://twitter.com/">Twitter</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+          </ul>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
