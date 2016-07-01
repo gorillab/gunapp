@@ -1,0 +1,17 @@
+{
+  "name": "gunapp",
+  "version": "0.0.1",
+  "description": "Gunapp CMS",
+  "authors": [
+    "GunApp"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "font-awesome": "4.5.0"
+  }
+}
